@@ -1,0 +1,89 @@
+*{
+	font-family: "sans serif"
+}
+
+body{
+	margin: 0;
+	background: #dedede;
+	display: flex;
+	align-items: center;
+	height: 100%;	
+}
+
+.hide{
+	display: none;
+}
+
+.canvas{
+	height: 100vh;
+	width: 100vh;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 20px auto;
+	max-height: 390px;
+	max-width: 390px;
+}
+
+.box{
+	height: 50%;
+	width: 50%;
+	display: inline-block;
+}
+
+.green{
+	background: #2cf708;
+	float: right;
+}
+
+.red{
+	background: #fa0505;
+	float: left;
+}
+
+.yellow{
+	background: #FFF100;
+	float: right;
+}
+
+.blue{
+	background: #084cf7;
+	float: left;
+}
+
+
+.green.light{
+	background: #95fb83;
+}
+
+.red.light{
+	background: #fc8282;
+}
+
+.yellow.light{
+	background: #fff980;
+}
+
+.blue.light{
+	background: #83a5fb;
+}
+
+.btnStart {
+	height: 50px;
+	width: 400px;
+	font-size: 30px;
+  	border-radius: 3em;
+  	border-color: #1abc9c;
+  	color: #000;
+  	background-image: -webkit-linear-gradient(left, rgba(26, 188, 156, 0.6), rgba(26, 188, 156, 0.6) 5%, #1abc9c 5%, #1abc9c 10%, rgba(26, 188, 156, 0.6) 10%, rgba(26, 188, 156, 0.6) 15%, #1abc9c 15%, #1abc9c 20%, rgba(26, 188, 156, 0.6) 20%, rgba(26, 188, 156, 0.6) 25%, #1abc9c 25%, #1abc9c 30%, rgba(26, 188, 156, 0.6) 30%, rgba(26, 188, 156, 0.6) 35%, #1abc9c 35%, #1abc9c 40%, rgba(26, 188, 156, 0.6) 40%, rgba(26, 188, 156, 0.6) 45%, #1abc9c 45%, #1abc9c 50%, rgba(26, 188, 156, 0.6) 50%, rgba(26, 188, 156, 0.6) 55%, #1abc9c 55%, #1abc9c 60%, rgba(26, 188, 156, 0.6) 60%, rgba(26, 188, 156, 0.6) 65%, #1abc9c 65%, #1abc9c 70%, rgba(26, 188, 156, 0.6) 70%, rgba(26, 188, 156, 0.6) 75%, #1abc9c 75%, #1abc9c 80%, rgba(26, 188, 156, 0.6) 80%, rgba(26, 188, 156, 0.6) 85%, #1abc9c 85%, #1abc9c 90%, rgba(26, 188, 156, 0.6) 90%, rgba(26, 188, 156, 0.6) 95%, #1abc9c 95%, #1abc9c 100%);
+  	background-image: linear-gradient(to right, rgba(26, 188, 156, 0.6), rgba(26, 188, 156, 0.6) 5%, #1abc9c 5%, #1abc9c 10%, rgba(26, 188, 156, 0.6) 10%, rgba(26, 188, 156, 0.6) 15%, #1abc9c 15%, #1abc9c 20%, rgba(26, 188, 156, 0.6) 20%, rgba(26, 188, 156, 0.6) 25%, #1abc9c 25%, #1abc9c 30%, rgba(26, 188, 156, 0.6) 30%, rgba(26, 188, 156, 0.6) 35%, #1abc9c 35%, #1abc9c 40%, rgba(26, 188, 156, 0.6) 40%, rgba(26, 188, 156, 0.6) 45%, #1abc9c 45%, #1abc9c 50%, rgba(26, 188, 156, 0.6) 50%, rgba(26, 188, 156, 0.6) 55%, #1abc9c 55%, #1abc9c 60%, rgba(26, 188, 156, 0.6) 60%, rgba(26, 188, 156, 0.6) 65%, #1abc9c 65%, #1abc9c 70%, rgba(26, 188, 156, 0.6) 70%, rgba(26, 188, 156, 0.6) 75%, #1abc9c 75%, #1abc9c 80%, rgba(26, 188, 156, 0.6) 80%, rgba(26, 188, 156, 0.6) 85%, #1abc9c 85%, #1abc9c 90%, rgba(26, 188, 156, 0.6) 90%, rgba(26, 188, 156, 0.6) 95%, #1abc9c 95%, #1abc9c 100%);
+  	background-position: 0 0;
+  	background-size: 100%;
+  	-webkit-transition: background 300ms ease-in-out;
+  	transition: background 300ms ease-in-out;
+  	position: absolute;
+	top: calc(50% + 150px);
+	left: calc(50% - 200px);
+}
+.btnStart:hover {
+  background-position: 100px;
+}
